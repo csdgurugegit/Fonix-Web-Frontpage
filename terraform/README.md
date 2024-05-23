@@ -11,19 +11,19 @@ terraform init
 ### Plan the deployment and specify the variable file
 
 ```
-terraform plan -var-key=values.config
+terraform plan -var-file=values.config
 ```
 
 ##### Save the execution plan to a file
 
 ```
-terraform plan -out webapp.tfplan -var-key=values.config
+terraform plan -out webapp.tfplan -var-file=values.config
 ```
 
 ### Apply the execution plan with the specified variable file
 
 ```
-terraform apply -var-key=values.config
+terraform apply -var-file=values.config
 ```
 
 ##### Or, apply the saved execution plan
