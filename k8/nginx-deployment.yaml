@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: fonix-web-app
-        image: csdgurugedockerhub/fonix-webapp:1.1
+        image: csdgurugedockerhub/fonix-webapp:2.2
         ports:
         - containerPort: 80
